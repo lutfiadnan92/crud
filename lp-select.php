@@ -1,6 +1,6 @@
 <?php
 include_once dirname(__FILE__).DIRECTORY_SEPARATOR.'lp-connectdb.php';
-
+//agar file konfigurasi lp-crud dapat dilakukan maka kita buat file ini terlebih dahulu
 class Select implements Iterator{
 	protected $_query;
 	protected $_sql;
