@@ -1,4 +1,5 @@
 <?php
+//fungsi untuk melakukan simpan, edit, hapus, tampil pada database
 include_once dirname(__FILE__).DIRECTORY_SEPARATOR.'lp-connectdb.php';
 class Crud{
 	protected $_tableName;
