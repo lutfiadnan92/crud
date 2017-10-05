@@ -26,7 +26,7 @@
 </style>
 <?php
 include_once dirname(__FILE__).DIRECTORY_SEPARATOR.'lp-config.php';
-
+//kita menggunakan ekstensi MySqli
 class Connect extends Mysqli{
 	protected static $mysqli;
 	private $dbhost;
@@ -61,6 +61,7 @@ class Connect extends Mysqli{
 			$this->close(self::$mysqli);
 		}
 	}
-}/*
+}
+/*apakah sudah konek atau belum
 $koneksi = new Connect;*/
 ?>
